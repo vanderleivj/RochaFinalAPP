@@ -21,11 +21,9 @@ export const Container = styled.View`
 export const ContainerTop = styled.View `
     flex-direction:row;
     padding-top:28px;
-
 `;
 
 export const ButtonIcon = styled(RectButton) `
-
 `;
 
 export const ButtonIconCalendar = styled(RectButton) `
@@ -37,7 +35,6 @@ export const ContainerCard = styled.View`
 `;
 
 export const ContainerCardMain = styled.View`
-
 `;
 
 export const ContainerProps = styled.View`
@@ -61,7 +58,6 @@ export const Card = styled.View`
     shadowOpacity: 0.22;
     shadowRadius: 2.22;
     elevation: 3;
-
 `;
 
 export const CardHeader = styled.View`
@@ -70,7 +66,6 @@ export const CardHeader = styled.View`
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     height: 50px;
-
 `;
 
 export const CardHeaderTwo = styled.View`
@@ -79,7 +74,6 @@ export const CardHeaderTwo = styled.View`
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     height: 50px;
-
 `;
 
 export const CardHeaderThree = styled.View`
@@ -88,18 +82,15 @@ export const CardHeaderThree = styled.View`
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     height: 50px;
-
 `;
 
 export const CardOne = styled(RectButton) `
-
     margin-right: 1%;
     width:22%;
     height: 80px;
     border: 2px solid #242972;
     border-radius: 10px;
     background: #EDECFE;
-
 `;
 
 
@@ -120,8 +111,6 @@ export const CardMain = styled.View`
     elevation: 3;
     padding-top:2.5%;
     flex-grow: 1;
-
-
 `;
 
 export const TextMain = styled.Text`
@@ -187,7 +176,6 @@ export const DateCard = styled.Text `
     padding-left:10%;
     padding-right:5%;
     flex-grow: 1;
-
 `;
 
 export const Divider = styled.View `
@@ -198,7 +186,6 @@ export const Divider = styled.View `
 `;
 
 export const ViewButton = styled(RectButton) `
-
 `;
 
 export const TextAll = styled.Text `
@@ -215,7 +202,6 @@ export const TextDate = styled.Text `
 `;
 
 export const ViewTop = styled.View`
-
     background: #242972;
     padding-top:20px;
     padding-left: 20px;

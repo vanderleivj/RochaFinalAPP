@@ -1,7 +1,5 @@
-import { createAppContainer } from 'react-navigation';
-import { createStackNavigator } from 'react-navigation-stack';
-
-
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack';
 
 import LoginComponent from './pages/Login/LoginComponent';
 import Home from './pages/Home';
@@ -11,68 +9,88 @@ import SolicitationConc from './pages/SolicitationConc';
 import PersonPage from './pages/PersonPage';
 import SolicitationAnd from './pages/SolicitationAnd';
 import SolicitationPend from './pages/SolicitationPend';
+import SelectPage from './pages/SelectPage';
+import SpRj from './pages/SelectPage/SpRj';
+import HomeRec from './pages/HomeRec';
 
 const Routes = createAppContainer(
-    createStackNavigator({
-        Login : {
-            screen: LoginComponent,
-            navigationOptions: {
-                headerShown: false,
-            },
-          },
-        Home : {
-            screen: Home,
-            navigationOptions: {
-                headerShown: false,
-              },
+  createStackNavigator(
+    {
+      Login: {
+        screen: LoginComponent,
+        navigationOptions: {
+          headerShown: false,
         },
-        PageID : {
-            screen: PageID,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      Home: {
+        screen: Home,
+        navigationOptions: {
+          headerShown: false,
         },
-        CalendarPage : {
-            screen: CalendarPage,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      PageID: {
+        screen: PageID,
+        navigationOptions: {
+          headerShown: false,
         },
-        SolicitationConc : {
-            screen: SolicitationConc,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      CalendarPage: {
+        screen: CalendarPage,
+        navigationOptions: {
+          headerShown: false,
         },
-        SolicitationAnd : {
-            screen: SolicitationAnd,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      SolicitationConc: {
+        screen: SolicitationConc,
+        navigationOptions: {
+          headerShown: false,
         },
-        SolicitationPend : {
-            screen: SolicitationPend,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      SolicitationAnd: {
+        screen: SolicitationAnd,
+        navigationOptions: {
+          headerShown: false,
         },
-        PersonPage : {
-            screen: PersonPage,
-            navigationOptions: {
-                headerShown: false,
-              },
+      },
+      SolicitationPend: {
+        screen: SolicitationPend,
+        navigationOptions: {
+          headerShown: false,
         },
-
-
-
-    }, {
-        headerLayoutPreset: 'center',
-        defaultNavigationOptions: {
-            headerBackTitleVisible: false,
+      },
+      PersonPage: {
+        screen: PersonPage,
+        navigationOptions: {
+          headerShown: false,
         },
-        initialRouteName: 'Login'
-    })
-
+      },
+      SelectPage: {
+        screen: SelectPage,
+        navigationOptions: {
+          headerShown: false,
+        },
+      },
+      SpRj: {
+        screen: SpRj,
+        navigationOptions: {
+          headerShown: false,
+        },
+      },
+      HomeRec: {
+        screen: HomeRec,
+        navigationOptions: {
+          headerShown: false,
+        },
+      },
+    },
+    {
+      headerLayoutPreset: 'center',
+      defaultNavigationOptions: {
+        headerBackTitleVisible: false,
+      },
+      initialRouteName: 'Login',
+    },
+  ),
 );
 
 export default Routes;
